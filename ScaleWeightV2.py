@@ -101,8 +101,9 @@ class application:
     
  
     def __init__(self, window):
-
-        self.root = window
+ #github test1
+ 
+        self.root = window 
         self.root.attributes("-fullscreen", True)
         self.root.attributes("-topmost", 1)
         self.root.geometry("800x480")

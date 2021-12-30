@@ -18,7 +18,7 @@ class application:
     netWeight = 0.00
     productWeight = 0.00
     productCount = 0.00
-
+ 
     def __init__(self, window):
         # root.overrideredirect(1) 
         #self.root.attributes("-topmost", 1)
