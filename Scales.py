@@ -20,7 +20,7 @@ class application:
     productCount = 0.00
 
     def __init__(self, window):
-        # root.overrideredirect(1)
+        # root.overrideredirect(1) 
         #self.root.attributes("-topmost", 1)
         self.root = window
         self.root.attributes("-fullscreen", True)

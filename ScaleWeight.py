@@ -88,7 +88,7 @@ class application:
         self.frameNetWeight.place(relx=0.41, rely = 0.01, relwidth=0.4, relheight=0.2)
         self.labelNetWeight = Label(self.frameNetWeight, bg="#0097A7", text = "Net Ağırlık \n0.00", font="Verdana 24 bold", fg="white")
         self.labelNetWeight.place(relx = 0.5,rely = 0.5,anchor = 'center')
-  
+   
         self.frameProductWeight = Frame(self.root, bg='#6610f2')
         self.frameProductWeight.place(relx=0.41, rely = 0.21, relwidth=0.4, relheight=0.2)
         self.labelProductWeight = Label(self.frameProductWeight, bg="#6610f2", text = "Ürün Ağırlığı \n0.00", font="Verdana 24 bold", fg="white")

@@ -18,7 +18,7 @@ from kivy.uix.vkeyboard import VKeyboard
 # Create the vkeyboard
 class Test(VKeyboard):
     player = VKeyboard()
-  
+   
 # Create the App class
 class VkeyboardApp(App):
     def build(self):

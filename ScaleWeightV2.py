@@ -99,7 +99,7 @@ class application:
 
 
     
-
+ 
     def __init__(self, window):
 
         self.root = window
